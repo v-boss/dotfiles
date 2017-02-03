@@ -1,0 +1,11 @@
+#!/bin/bash
+
+while [ 1 ]
+do
+clear
+date
+
+curl -s wttr.in/Coventry | head -37
+
+sleep 3600
+done

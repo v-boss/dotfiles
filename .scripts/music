@@ -1,0 +1,32 @@
+#!/bin/bash
+
+xdotool key super+Shift+0
+xdotool key super+0
+sleep 1
+i3-sensible-terminal
+xdotool type mopidy
+xdotool key KP_Enter
+xdotool key super+v
+sleep 1
+i3-sensible-terminal
+sleep 0.5
+xdotool type cd
+xdotool key space
+xdotool type ~/Downloads/cava-master/
+xdotool key KP_Enter
+sleep 0.5
+xdotool type ./cava
+xdotool key KP_Enter
+sleep 1
+xdotool key c
+sleep 0.5
+xdotool key c
+sleep 0.5
+xdotool key c
+sleep 0.5
+xdotool key c
+sleep 0.5
+xdotool key super+Left
+xdotool type ncmpcpp
+xdotool key KP_Enter
+#xdotool key super+e
